@@ -9,12 +9,12 @@
       "visited": true
     },
     {
-      "id": 2,
-      "name": "Mojave National Preserve",
-      "state": "CA",
-      "latitude": 35.141689,
-      "longitude": -115.510399,
-      "visited": true
+      "name": "Devils Tower",
+      "state": "WY",
+      "latitude": "",
+      "longitude": "",
+      "visited": false,
+      "id": 2
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "state": "TX",
       "latitude": 32.590797,
       "longitude": -95.273666,
-      "visited": false
+      "visited": true
     },
     {
       "id": 7,
@@ -88,7 +88,7 @@
       "state": "CO",
       "area": 4724,
       "dateEstablished": "09-21-2012",
-      "visited": false
+      "visited": true
     },
     {
       "id": 2,
@@ -96,7 +96,7 @@
       "state": "WY",
       "area": 1347.21,
       "dateEstablished": "09-24-1906",
-      "visited": false
+      "visited": true
     },
     {
       "id": 3,

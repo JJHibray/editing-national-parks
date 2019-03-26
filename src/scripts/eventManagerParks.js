@@ -44,12 +44,18 @@ const handleUpdate = () => {
 
   const editedParkName = document.querySelector(`#edit-park-name--${parkId}`);
   const editedParkState = document.querySelector(`#edit-park-state--${parkId}`);
+  const editedParkLatitude = document.querySelector(`#edit-park-latitude--${parkId}`);
+  const editedParkLongitude = document.querySelector(`#edit-park-longitude--${parkId}`);
+  let radioButtonValue = document.querySelector(`input[name="visited"]:checked`).value;
 
-  console.log(editedParkName.value, editedParkState.value);
+  console.log(editedParkName.value, editedParkState.value, editedParkLatitude.value);
 
   let editedPark = {
     name: editedParkName.value,
-    state: editedParkState.value
+    state: editedParkState.value,
+    latitude: editedParkLatitude.value,
+    longitude: editedParkLongitude.value,
+    visited: (radioButtonValue === "true")
   };
 
   putPark(parkId, editedPark).then(() => listNationalParks());
